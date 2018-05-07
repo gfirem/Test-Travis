@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-Travis", "Test-Travis\Test-Travis.csproj", "{69DEF4D7-B887-46B8-BA51-AC9F19A12900}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{F6734F55-F911-4B8F-9DC4-991A655FA587}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E58099BA-B770-4F59-9555-BFD0EAA071C4}"
+	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69DEF4D7-B887-46B8-BA51-AC9F19A12900}.Debug|x86.ActiveCfg = Debug|x86
+		{69DEF4D7-B887-46B8-BA51-AC9F19A12900}.Debug|x86.Build.0 = Debug|x86
+		{69DEF4D7-B887-46B8-BA51-AC9F19A12900}.Release|x86.ActiveCfg = Release|x86
+		{69DEF4D7-B887-46B8-BA51-AC9F19A12900}.Release|x86.Build.0 = Release|x86
+		{F6734F55-F911-4B8F-9DC4-991A655FA587}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F6734F55-F911-4B8F-9DC4-991A655FA587}.Debug|x86.Build.0 = Debug|Any CPU
+		{F6734F55-F911-4B8F-9DC4-991A655FA587}.Release|x86.ActiveCfg = Release|Any CPU
+		{F6734F55-F911-4B8F-9DC4-991A655FA587}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+﻿language: csharp
+solution: Test-Travis.sln
+script:
+  - xbuild /p:Configuration=Release Test-Travis.sln
+before_install:
+  - sudo apt-get install nunit-console
+before_script:
+  - nuget restore Test-Travis.sln
+after_script:
+  - nunit-console Test/bin/Release/Test.dll
